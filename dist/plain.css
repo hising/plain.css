@@ -207,3 +207,11 @@ footer {
 .btn.btn-alt {
     background-color: #2c67f3;
 }
+
+.label {
+    display: inline-block;
+    line-height: 1.2;
+    padding: .1rem .15rem;
+    background: #b6b6b6;
+    color: #272727;
+}
