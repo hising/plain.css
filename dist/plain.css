@@ -121,3 +121,27 @@ figure {
 figcaption {
     font-size: 90%;
     color: #868e96; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    width: 100%;
+}
+
+table th {
+    border-bottom-width: .1rem;
+}
+
+table th, table td {
+    border-bottom: .05rem solid #a6a6a6;
+    padding: .6rem .4rem;
+}
+
+table thead tr {
+    background: #d8d8d8;
+}
+
+table tbody tr:nth-of-type(even) {
+    background: #f8f9fa;
+}
