@@ -6,7 +6,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     background-color: #eee;
-    color: #444; }
+    color: #444;
+    padding:0;
+    margin:0;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito', sans-serif;
@@ -64,6 +67,21 @@ blockquote:after {
     color: #249144;
     margin-top: 1em;
     font-style: normal; }
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: .05rem solid #c7c7c7;
+}
+
+header .brand {
+    color: #000;
+    text-decoration: none;
+    border-bottom:none;
+    font-size: 32px;
+    font-weight: 100;
+}
 
 .container {
     margin-right: auto;
@@ -144,4 +162,11 @@ table thead tr {
 
 table tbody tr:nth-of-type(even) {
     background: #f8f9fa;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: .05rem solid #c7c7c7;
 }
